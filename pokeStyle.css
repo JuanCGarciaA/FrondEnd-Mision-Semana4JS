@@ -1,0 +1,85 @@
+@font-face{
+    font-family: Pokemon;
+    src: url(./Pokemon\ Hollow.ttf)
+}
+h1{
+    font-family: Pokemon;
+    font-size: 50PX;
+    color: orange;
+    text-align: center;
+    padding: 0px;
+    background-color: rgb(44,112,183,0.8);
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+}
+.imagenFondo{
+    width : 50%;
+    position: absolute;
+    top:15%;
+    left: 28%;
+
+}
+.imagenPokemon{
+    position: absolute;
+    top:38%;
+    left: 35%;  
+    width:10.5%;
+}
+.selectorPokemon{
+    position: absolute;
+    top:61%;
+    left: 34%; 
+    font-size: 30px; 
+    width:200px;
+    font-family: 'Courier New', Courier, monospace; 
+    background-color:transparent;
+    text-align: center;
+}
+.buscarPokemon{
+    position: absolute;
+    top:530px;
+    left: 33.5%;
+    width:123px;
+    height: 60px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 3px;
+}
+.buscarPokemon:hover{
+    box-shadow: 5px 5px 5px #274A2D;
+}
+.peso{
+    position: absolute;
+    top:555px;
+    left: 61.2%;
+    color: #DDDD00;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.altura{
+    position: absolute;
+    top:555px;
+    left: 70%;
+    color: #DDDD00;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.naturaleza1{
+    position: absolute;
+    top:39%;
+    left: 63%;
+}
+.naturaleza2{
+    position: absolute;
+    top:39%;
+    left: 67%;
+}
+.estadisticas{
+    position:relative;
+    top: 178px;
+    left: 60%;
+}
